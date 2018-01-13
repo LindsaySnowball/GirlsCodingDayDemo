@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Girls Coding Day's Blog</title>
+    <title>Lindsay's Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,18 +69,33 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
-                    </div>
+    <header class="intro-header">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active"  style="margin-left:300px;margin-right:300px"  height="100px" width="600">
+                    <img src="img/timgP0JZHF7Q.jpg" alt="First slide" style="height:400px">
+                </div>
+                <div class="item" style="margin-left:300px;margin-right:300px" height="100px" width="600" > 
+                    <img src="img/head2.jpg" alt="Second slide"  style="height:400px">
+                </div>
+                <div class="item" style="margin-left:300px;margin-right:300px" height="100px" width="600" >
+                    <img src="img/2001.jpg" alt="Third slide"  style="height:400px">
                 </div>
             </div>
-        </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel" 
+               data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" 
+               data-slide="next">&rsaquo;</a>
+        </div> 
+        
     </header>
 
     <!-- Main Content -->
@@ -90,48 +105,34 @@
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
+                            一场说走就走的旅行——三亚
                         </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+                    <p class="post-meta">阳光，沙滩，海浪，椰子</p>
+                </div>
+                <div>
+                    <img src="img/101.jpg" height="100" width="150">
+                    <img src="img/201.jpg" height="100" width="150">
+                    <img src="img/301.jpg" height="100" width="150">
+                    <img src="img/401.jpg" height="100" width="150">
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="https://girlscodingday.org/">
                         <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                            Girls Coding Day
                         </h2>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+                    <p class="post-meta">中国最大的女性公益编程工作坊</p>
+                </div>
+                <div>
+                    <img src="img/2001.jpg" height="100" width="150">
+                    <img src="img/2002.jpg" height="100" width="150">
+                    <img src="img/2003.jpg" height="100" width="150">
+                    <img src="img/2004.jpg" height="100" width="150">
                 </div>
                 <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Science has not yet mastered prophecy
-                        </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Failure is not an option
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
-                </div>
-                <hr>
+
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
@@ -153,27 +154,28 @@
                         <li>
                             <a href="#">
                                 <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <img src="img/weixin.png" height="50" width="50"/>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://weibo.com/mxluan/home?wvr=5&lf=reg">
                                 <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <img src="img/weibo.png" height="50" width="50"/>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <img src="img/mail.png" height="50" width="50"/>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
                     </ul>
                     <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
                 </div>
